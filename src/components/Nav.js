@@ -17,20 +17,26 @@ class Nav extends Component {
     const { activeNav } = this.state;
     return (
       <div className="nav">
-        <h1 
-          onClick={() => this.setActive('about')} 
+        <Link to={'/'} 
           className={activeNav === 'about' ? 'nav-item-active' : 'nav-item'}
-        ><Link to={'/'}>About</Link></h1>
+          onClick={() => this.setActive('about')}
+        >
+            <h1>About</h1>
+        </Link>
 
-        <h1 
-          onClick={() => this.setActive('portfolio')} 
+        <Link to={'/portfolio'} 
           className={activeNav === 'portfolio' ? 'nav-item-active' : 'nav-item'}
-        ><Link to={'/portfolio'}>Portfolio</Link></h1>
+          onClick={() => this.setActive('portfolio')}
+        >
+            <h1>Portfolio</h1>
+        </Link>
 
-        <h1 
-          onClick={() => this.setActive('contact')} 
+        <Link to={'/contact'} 
           className={activeNav === 'contact' ? 'nav-item-active' : 'nav-item'}
-        ><Link to={'/contact'}>Contact</Link></h1>
+          onClick={() => this.setActive('contact')}
+        >
+            <h1>Contact</h1>
+        </Link>
       </div>
     );
   }

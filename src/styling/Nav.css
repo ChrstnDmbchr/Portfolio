@@ -11,6 +11,14 @@
   z-index: 1;
 }
 
+.nav a {
+  color: #607089;
+}
+
+.nav a:hover {
+  color: #607089;
+}
+
 .nav-item {
   display: flex;
   align-items: center;
