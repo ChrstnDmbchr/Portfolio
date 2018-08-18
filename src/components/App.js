@@ -1,14 +1,27 @@
 import React, { Component } from 'react';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import '../styling/App.css'
 
-import Nav from './Nav'
+import Nav from './Nav';
+import About from './About';
+import Portfolio from './Portfolio';
+import Contact from './Contact';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Nav />
-      </div>
+      <BrowserRouter>
+        <div className="app">
+          <Nav />
+          <div className="app-content">
+            <Switch>
+              <Route exact path='/' component={About} />
+              <Route path='/portfolio' component={Portfolio} />
+              <Route path='/contact' component={Contact} />
+            </Switch>
+          </div>
+        </div>
+      </BrowserRouter>
     );
   }
 }
