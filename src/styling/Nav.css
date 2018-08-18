@@ -1,0 +1,30 @@
+.nav {
+  width: 100vw;
+  position: fixed;
+  box-shadow: -4px 1px 39px -6px rgba(0,0,0,0.63);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 10%;
+  grid-template-rows: 60px;
+  text-align: center;
+  position: fixed;
+  z-index: 1;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  border-bottom: 5px solid white;
+  color: #607089;
+}
+
+.nav-item-active {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  border-bottom: 5px solid #607089;
+  color: #607089;
+}
