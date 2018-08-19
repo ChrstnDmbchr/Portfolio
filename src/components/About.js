@@ -9,8 +9,9 @@ class About extends Component {
         <h1 className="about-title">Full Stack Developer</h1>
         <img className="about-pic" src={require('../assets/picture.jpeg')} alt="Christian Dambacher" />
         <div>
-          <a href="https://www.linkedin.com/in/christian-dambacher-0b988116a"> <i className="about-link fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
-        </div> 
+          <a href="https://www.linkedin.com/in/christian-dambacher-0b988116a"> <i className="about-link fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
+          <a href="https://github.com/ChrstnDmbchr"> <i className="fa fa-github fa-3x" aria-hidden="true"></i></a>
+        </div>
         <div className="about-content container">
           <div className="columns">
             <div className="about-desc column is-three-fifths">
