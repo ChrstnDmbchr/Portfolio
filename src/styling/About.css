@@ -14,13 +14,37 @@
   width: 250px;
   border-radius: 50%;
   border: 5px solid #607089;
-  margin: 20px 0px 50px 0px;
+  margin: 20px 0px 30px 0px;
 }
 
-.about-desc { 
-  background-color: blue;
+.about-desc, .about-skills { 
+  color: #607089;
+}
+
+.about-desc {
+
 }
 
 .about-skills {
-  background-color: red;
+  border-left: 2px solid #607089;
+}
+
+.about-skill-list { 
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.about-content { 
+  padding-top: 30px;
+  text-align: left;
+}
+
+.about-skill-list {
+  list-style-type: disc;
+  padding-left: 30px;
+}
+
+.skill-title {
+  color: black;
+  font-size: 20px;
 }
