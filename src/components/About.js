@@ -10,7 +10,7 @@ class About extends Component {
         <img className="about-pic" src={require('../assets/picture.jpeg')} alt="Christian Dambacher" />
         <div className="container">
           <div className="columns">
-            <div className="about-desc column is-two-thirds">
+            <div className="about-desc column is-three-fifths">
               <h1>about</h1>
             </div>
             <div className="about-skills column">
@@ -18,7 +18,6 @@ class About extends Component {
             </div>
           </div>
         </div>
-
       </div>
     );
   }
