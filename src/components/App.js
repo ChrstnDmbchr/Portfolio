@@ -19,7 +19,7 @@ class App extends Component {
                 return <Redirect to='/about' />
               }} />
               <Route path='/about' component={About} />
-              <Route path='/portfolio' component={Portfolio} />
+              <Route path='/previouswork' component={Portfolio} />
               <Route path='/contact' component={Contact} />
             </Switch>
           </div>

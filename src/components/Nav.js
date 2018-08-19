@@ -24,7 +24,7 @@ class Nav extends Component {
           <h1>About</h1>
         </Link>
 
-        <Link to={'/portfolio'} 
+        <Link to={'/previouswork'} 
           className={activeNav === 'portfolio' ? 'nav-item-active' : 'nav-item'}
           onClick={() => this.setActive('portfolio')}
         >
