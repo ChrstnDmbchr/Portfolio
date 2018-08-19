@@ -22,14 +22,14 @@ class About extends Component {
             <div className="about-skills column">
               <h1 className="title">Technical Skills</h1>
               <div className="about-skills-list">
-                <div>
+                <div className="about-skill-area">
                   <p className="skill-title">Languages:</p>
                   <ul className="about-skill-list">
                     <li>Javascript</li>
                   </ul>
                 </div>
                 <br />
-                <div>
+                <div className="about-skill-area">
                   <p className="skill-title">Back End:</p>
                   <ul className="about-skill-list">
                     <li>NodeJs</li>
@@ -40,7 +40,7 @@ class About extends Component {
                   </ul>
                 </div>
                 <br />
-                <div>
+                <div className="about-skill-area">
                   <p className="skill-title">Front End:</p>
                   <ul className="about-skill-list">
                     <li>ReactJs</li>
@@ -50,7 +50,7 @@ class About extends Component {
                   </ul>
                 </div>
                 <br />
-                <div>
+                <div className="about-skill-area">
                   <p className="skill-title">Testing:</p>
                   <ul className="about-skill-list">
                     <li>Mocha</li>
