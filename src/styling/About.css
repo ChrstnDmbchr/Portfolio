@@ -21,6 +21,10 @@
   color: #607089;
 }
 
+.about-desc *, .about-skills *{
+  padding-left: 10px;
+}
+
 .about-skills {
   border-left: 2px solid #607089;
 }

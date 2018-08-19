@@ -14,11 +14,13 @@ class About extends Component {
         </div>
         <div className="about-content container">
           <div className="columns">
+          
             <div className="about-desc column is-three-fifths">
               <h1 className="title">Hi, so here is a bit about me.</h1>
               <p>I am a professional, enthusiastic and organised individual who has recently finished an intensive full-stack developer course at <a href="https://northcoders.com/">Northcoders</a>. I am a Microsoft and ITIL certified individual with over 8 years experience in IT Support and Administration who is looking for a change in careers.</p>
               <p>While assisting on several projects in my previous role I discovered my passion in development and am seeking a role which will allow me to grow my newly acquired skills and knowledge in the field.</p>
             </div>
+
             <div className="about-skills column">
               <h1 className="title">Technical Skills</h1>
               <div className="about-skills-list">
