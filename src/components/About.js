@@ -6,7 +6,7 @@ class About extends Component {
     return (
       <div className="about animated fadeIn">
         <h1 className="about-name">Christian Dambacher</h1>
-        <h1 className="about-title">Full Stack Developer</h1>
+        <h1 className="about-title">Full Stack Web Developer</h1>
         <img className="about-pic" src={require('../assets/picture.jpeg')} alt="Christian Dambacher" />
         <div>
           <a href="https://www.linkedin.com/in/christian-dambacher-0b988116a"> <i className="about-link fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
@@ -60,6 +60,7 @@ class About extends Component {
                   <ul className="about-skill-list">
                     <li>Mocha</li>
                     <li>Chai</li>
+                    <li>Supertest</li>
                   </ul>
                 </div>
 
