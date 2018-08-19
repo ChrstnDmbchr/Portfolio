@@ -17,7 +17,7 @@ class Nav extends Component {
     const { activeNav } = this.state;
     return (
       <div className="nav">
-        <Link to={'/'} 
+        <Link to={'/about'} 
           className={activeNav === 'about' ? 'nav-item-active' : 'nav-item'}
           onClick={() => this.setActive('about')}
         >
