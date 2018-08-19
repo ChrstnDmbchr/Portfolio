@@ -18,6 +18,9 @@ class App extends Component {
               <Route exact path='/' render={() => {
                 return <Redirect to='/about' />
               }} />
+              <Route exact path='/portfolio' render={() => {
+                return <Redirect to='/about' />
+              }} />
               <Route path='/about' component={About} />
               <Route path='/previouswork' component={Portfolio} />
               <Route path='/contact' component={Contact} />
