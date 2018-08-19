@@ -21,21 +21,21 @@ class Nav extends Component {
           className={activeNav === 'about' ? 'nav-item-active' : 'nav-item'}
           onClick={() => this.setActive('about')}
         >
-            <h1>About</h1>
+          <h1>About</h1>
         </Link>
 
         <Link to={'/portfolio'} 
           className={activeNav === 'portfolio' ? 'nav-item-active' : 'nav-item'}
           onClick={() => this.setActive('portfolio')}
         >
-            <h1>Portfolio</h1>
+          <h1>Portfolio</h1>
         </Link>
 
         <Link to={'/contact'} 
           className={activeNav === 'contact' ? 'nav-item-active' : 'nav-item'}
           onClick={() => this.setActive('contact')}
         >
-            <h1>Contact</h1>
+          <h1>Contact</h1>
         </Link>
       </div>
     );

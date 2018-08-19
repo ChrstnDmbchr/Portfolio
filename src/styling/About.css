@@ -1,0 +1,26 @@
+.about-name, .about-title {
+  color: #607089;
+}
+
+.about-name { 
+  font-size: 40px;
+}
+
+.about-title { 
+  font-size: 25px;
+}
+
+.about-pic {
+  width: 250px;
+  border-radius: 50%;
+  border: 5px solid #607089;
+  margin: 20px 0px 50px 0px;
+}
+
+.about-desc { 
+  background-color: blue;
+}
+
+.about-skills {
+  background-color: red;
+}
