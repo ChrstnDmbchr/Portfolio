@@ -8,6 +8,7 @@ import Portfolio from './Portfolio';
 import Contact from './Contact';
 
 class App extends Component {
+  // redirects added to work around issue of github pages not loading the about page first
   render() {
     return (
       <BrowserRouter>
