@@ -1,0 +1,31 @@
+.portfolio-note {
+  color: #607089;
+}
+
+.portfolio-display {
+  padding-top: 100px;
+}
+
+.portfolio-item {
+  padding: 10px;
+  text-align: center;
+}
+
+.portfolio-image { 
+  border: 2px solid white;
+  margin-bottom: 50px;
+}
+
+.portfolio-item p {
+  color: #607089;
+  padding: 10px;
+  text-align: left;
+}
+
+.portfolio-image:hover { 
+  border: 2px solid #607089;
+}
+
+.portfolio-pronounced {
+  color: black;
+}
