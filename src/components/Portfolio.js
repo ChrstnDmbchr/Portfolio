@@ -11,7 +11,7 @@ class Portfolio extends Component {
           <div className="portfolio-item column">
             <h1 className="title">Northcoders News</h1>
             <a href="https://ncnews-cdambacher.herokuapp.com" target="_blank" rel="noopener noreferrer"><img className="portfolio-image" src={require('../assets/ncnews.png')} alt="northcoders news" /></a>
-            <p>A Reddit-style news aggregation, web content rating and discussion website, developed as a full-stack project</p>
+            <p>A Reddit-style news aggregation, web content rating and discussion website, developed as a full-stack project. Best viewed on a desktop.</p>
             <p><span className="portfolio-pronounced">Technologies used:</span></p>
             <p>
               <span className="portfolio-pronounced">Front End:</span> ReactJS, HTML, CSS, Bulma
@@ -25,7 +25,7 @@ class Portfolio extends Component {
           <div className="portfolio-item column">
             <h1 className="title">Monster Mash</h1>
             <a href="https://monster-mash-app.herokuapp.com" target="_blank" rel="noopener noreferrer"><img className="portfolio-image" src={require('../assets/monstermash.png')} alt="monster mash" /></a>
-            <p>Monster Mash was my final individual project piece at Northcoders. It is a collaborative drawing web app which enables multiple users to anonymously contribute to creating a shared image. Responsible for Planning, Front End development, Back End development and deployment</p>
+            <p>Monster Mash was my final individual project piece at Northcoders. It is a collaborative drawing web app which enables multiple users to anonymously contribute to creating a shared image. Responsible for Planning, Front End development, Back End development and deployment. Best viewed on a desktop.</p>
             <p><span className="portfolio-pronounced">Technologies used:</span></p>
             <p>
               <span className="portfolio-pronounced">Front End:</span> ReactJS, HTML, CSS, Bulma, HTML Canvas
@@ -35,7 +35,7 @@ class Portfolio extends Component {
               <span className="portfolio-pronounced">Testing Technology used:</span> Mocha, Chai, Supertest
             </p>
           </div>
-          
+
         </div>
       </div>
     );
