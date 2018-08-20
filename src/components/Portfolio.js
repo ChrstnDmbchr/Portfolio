@@ -7,6 +7,7 @@ class Portfolio extends Component {
       <div className="portfolio animated fadeIn container">
         <p className="portfolio-note">Please note that my portfolio pieces are hosted on a free Heroku account, the servers they are hosted on enter a 'sleep' mode when not in use. If you notice a delay, please allow a few seconds for the server to wake up. Thank you.</p>
         <div className="portfolio-display columns">
+
           <div className="portfolio-item column">
             <h1 className="title">Northcoders News</h1>
             <a href="https://ncnews-cdambacher.herokuapp.com" target="_blank" rel="noopener noreferrer"><img className="portfolio-image" src={require('../assets/ncnews.png')} alt="northcoders news" /></a>
@@ -20,6 +21,7 @@ class Portfolio extends Component {
               <span className="portfolio-pronounced">Testing Technology used:</span> Mocha, Chai, Supertest
             </p>
           </div>
+
           <div className="portfolio-item column">
             <h1 className="title">Monster Mash</h1>
             <a href="https://monster-mash-app.herokuapp.com" target="_blank" rel="noopener noreferrer"><img className="portfolio-image" src={require('../assets/monstermash.png')} alt="monster mash" /></a>
@@ -33,6 +35,7 @@ class Portfolio extends Component {
               <span className="portfolio-pronounced">Testing Technology used:</span> Mocha, Chai, Supertest
             </p>
           </div>
+          
         </div>
       </div>
     );
