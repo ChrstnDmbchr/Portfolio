@@ -39,6 +39,7 @@ class About extends Component {
                   <ul className="about-skill-list">
                     <li>NodeJs</li>
                     <li>MongoDB</li>
+                    <li>Mongoose</li>
                     <li>PostgreSQL</li>
                     <li>SQL</li>
                     <li>Express</li>
@@ -49,8 +50,8 @@ class About extends Component {
                   <p className="skill-title">Front End:</p>
                   <ul className="about-skill-list">
                     <li>ReactJs</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
                     <li>Bulma</li>
                   </ul>
                 </div>
