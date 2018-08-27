@@ -5,7 +5,7 @@ class Portfolio extends Component {
   render() {
     return (
       <div className="portfolio animated fadeIn container">
-        <p className="portfolio-note">Please note that my portfolio pieces are currently hosted on a free Heroku account, the servers they are hosted on enter a 'sleep' mode when not in use. If you notice a delay, please allow a few seconds for the server to wake up. Thank you.</p>
+        <p className="portfolio-note">Please note that my portfolio pieces are currently hosted on a free Heroku account, the servers enter a 'sleep' mode when not in use. If you notice a delay, please allow a few seconds for the server to wake up. Thank you.</p>
         <div className="portfolio-display columns">
 
           <div className="portfolio-item column">
